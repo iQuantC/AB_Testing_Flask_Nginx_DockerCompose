@@ -23,7 +23,7 @@ python3 -m venv ab-test-venv
 source ab-test-venv/bin/activate
 ```
 
-## Install Required Python Packages
+## Install Required Python Packages 
 
 ```sh
 cd api
@@ -36,7 +36,7 @@ Add the following to requirements.txt
 flask
 scikit-learn
 numpy
-pandas
+pandas 0.666667
 streamlit
 ```
 
@@ -94,7 +94,7 @@ python3 train_model_b.py
 ```
 
 
-## Create Flask APIs for Both Models
+## Create Flask APIs to Expose Both Models
 ```sh
 cd api
 touch app_model_a.py app_model_b.py

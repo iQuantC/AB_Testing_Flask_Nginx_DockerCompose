@@ -1,0 +1,10 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+COPY api/ ./
+COPY models/model_a.pkl ./model_a.pkl
+
+RUN pip install -r requirements.txt
+
+CMD ["python", "app_model_a.py"]
