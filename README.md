@@ -358,7 +358,7 @@ print("\nModel Accuracy Based on User Feedback:")
 print(results)
 ```
 
-### Analyze the A/B test logs
+### Run the Log Analysis
 Make sure that the python virtual environment is still activated. If it's not, reactivate it with the "source" command from the beginning: 
 ```sh
 source ab-test-venv/bin/activate
